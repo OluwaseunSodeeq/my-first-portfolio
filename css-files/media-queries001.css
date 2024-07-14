@@ -80,6 +80,9 @@
   }
 }
 @media (max-width: 450px) {
+  .right-border {
+    width: 60%;
+  }
   footer,
   .oluwaseun-main,
   .navigation {
