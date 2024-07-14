@@ -1,50 +1,115 @@
-@media (max-width: 615px) {
-    header {
-        width: 100%;
-        height: auto;
-    }
-    .navigation {
-        height: 29%;
-        flex-direction: column;
-        align-items: center;
-    }
-    .navigation >.logo {
-        order: 1;
-        width: 50%;
-    }
-    .navigation >.nav-links-wrapper {
-        order: 2;
-        width: 100%;
-    } 
-    .space90{
-        width: 100%;
-        height: 135px;
-    }
-    .hero-wrapper{
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
-    .hero-wrapper .right {
-        height: auto;
-        width: 100%;
-        text-align: center;
-        order: 1;
+@media (max-width: 950px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  header {
+    width: 100%;
+    height: auto;
+  }
+  footer,
+  .oluwaseun-main,
+  .navigation {
+    width: 80%;
+  }
+  .navigation {
+    margin: 0 auto;
+    height: 130px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
 
-    }
-    .right >.right-border {
-        margin-bottom: 10px;
-    }
-    .hero-wrapper >.left {
-        height: 100%;
-        width: 100%;
-        text-align: center;
-        order: 2;
-    }
-    .main-main-body {
-        
-        grid-template-columns: 1fr !important;
-        
-    }
-    
+  .nav-links-wrapper,
+  .logo {
+    width: 100%;
+  }
+  .logo {
+    order: 1;
+  }
+  .navigation > .nav-links-wrapper {
+    order: 2;
+  }
+  .hero-wrapper {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    row-gap: 50px;
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .adepriceless {
+    width: 100%;
+  }
+  .adepriceless > .main-main-body {
+    width: 100%;
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  .project-phase {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .project-card {
+    width: 80%;
+    margin: 20px auto 0;
+  }
+  /* .service-section { */
+  /* border: 2px solid green; */
+  /* margin-top: 30px; */
+  /* } */
+  .form-section {
+    width: 95%;
+    margin-left: -10px;
+    margin-top: 30px;
+  }
+  .form-group {
+    width: 100%;
+  }
+  .connect-with-me-section {
+    flex-direction: column;
+    row-gap: 2px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 450px) {
+  footer,
+  .oluwaseun-main,
+  .navigation {
+    width: 90%;
+  }
+
+  .connect-with-me-section {
+    padding: 0px;
+  }
+  .project-phase,
+  .about {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  .about-nav,
+  .service-section,
+  .form-section {
+    height: auto;
+    padding: 0 20px;
+  }
+
+  .project-card-wrapper,
+  .services {
+    width: 100%;
+  }
+  .service-card {
+    width: 100%;
+  }
+  .project-card {
+    width: 90%;
+  }
 }
